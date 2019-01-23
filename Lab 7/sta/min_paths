@@ -1,0 +1,106 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min
+	-slack_lesser_than 5.00
+	-max_paths 3
+	-sort_by slack
+Design : cruisecontrol
+Version: L-2016.06-SP1
+Date   : Mon Jul 30 16:51:45 2018
+****************************************
+
+
+  Startpoint: reset (input port clocked by clk)
+  Endpoint: cruisectrl_reg
+               (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  ---------------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  reset (in)                               0.04       0.04 f
+  U154/Y (OAI21X1)                         0.08       0.12 r
+  cruisectrl_reg/D (DFFPOSX1)              0.00       0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock reconvergence pessimism            0.00       0.00
+  cruisectrl_reg/CLK (DFFPOSX1)                       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  ---------------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                  -0.12
+  ---------------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: cruisespeed_reg[3]
+               (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cruisespeed_reg[3]
+               (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  ---------------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  cruisespeed_reg[3]/CLK (DFFPOSX1)        0.00       0.00 r
+  cruisespeed_reg[3]/Q (DFFPOSX1)          0.14       0.14 r
+  U128/Y (AOI22X1)                         0.06       0.19 f
+  U126/Y (NAND2X1)                         0.06       0.25 r
+  cruisespeed_reg[3]/D (DFFPOSX1)          0.00       0.25 r
+  data arrival time                                   0.25
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock reconvergence pessimism            0.00       0.00
+  cruisespeed_reg[3]/CLK (DFFPOSX1)                   0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  ---------------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                  -0.25
+  ---------------------------------------------------------------
+  slack (MET)                                         0.25
+
+
+  Startpoint: cruisespeed_reg[5]
+               (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cruisespeed_reg[5]
+               (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  ---------------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  cruisespeed_reg[5]/CLK (DFFPOSX1)        0.00       0.00 r
+  cruisespeed_reg[5]/Q (DFFPOSX1)          0.14       0.14 r
+  U122/Y (AOI22X1)                         0.06       0.19 f
+  U120/Y (NAND2X1)                         0.06       0.25 r
+  cruisespeed_reg[5]/D (DFFPOSX1)          0.00       0.25 r
+  data arrival time                                   0.25
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock reconvergence pessimism            0.00       0.00
+  cruisespeed_reg[5]/CLK (DFFPOSX1)                   0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  ---------------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                  -0.25
+  ---------------------------------------------------------------
+  slack (MET)                                         0.25
+
+Warning: report_timing has satisfied the max_paths criteria. There are 17 further endpoints which have paths of interest with slack less than     5.00 that were not considered when generating this report. (UITE-502)
+
+1

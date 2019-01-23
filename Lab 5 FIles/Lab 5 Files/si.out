@@ -1,0 +1,115 @@
+@(#)$CDS: LVS version 6.1.7-64b 01/24/2017 19:46 (sjfhw310) $
+
+Command line: /softwares/Linux/cadence/IC617/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ugrads/a/albertzong/ECEN454/Lab1/LVS -l -s -t /home/ugrads/a/albertzong/ECEN454/Lab1/LVS/layout /home/ugrads/a/albertzong/ECEN454/Lab1/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /home/ugrads/a/albertzong/ECEN454/Lab1/LVS/layout/netlist
+       count
+        91              nets
+        16              terminals
+        72              pmos
+        72              nmos
+
+    Net-list summary for /home/ugrads/a/albertzong/ECEN454/Lab1/LVS/schematic/netlist
+       count
+        91              nets
+        16              terminals
+        72              pmos
+        72              nmos
+
+
+    Terminal correspondence points
+    N83       N9        A<0>
+    N80       N8        A<1>
+    N77       N7        A<2>
+    N75       N5        A<3>
+    N90       N18       B<0>
+    N88       N0        B<1>
+    N86       N12       B<2>
+    N85       N15       B<3>
+    N82       N2        C
+    N87       N3        Cout
+    N78       N13       GND
+    N84       N10       S<0>
+    N81       N14       S<1>
+    N79       N17       S<2>
+    N76       N11       S<3>
+    N89       N16       VDD
+
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  144     144    
+        total                   144     144    
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  91      91     
+        total                   91      91     
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          0       0      
+        total                   16      16     
+
+
+Probe files from /home/ugrads/a/albertzong/ECEN454/Lab1/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/ugrads/a/albertzong/ECEN454/Lab1/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+------------------
+
+DRC started.......Thu Jul 19 15:30:53 2018
+    completed ....Thu Jul 19 15:30:54 2018
+    CPU TIME = 00:00:00  TOTAL TIME = 00:00:01
+*********  Summary of rule violations for cell "4bit_adder layout"  *********
+ # errors  Violated Rules
+       17  (SCMOS Rule 5.5.b) poly contact to poly spacing: 0.50 um
+       12  (SCMOS Rule 7.2) metal1 spacing: 0.30 um
+       13  (SCMOS_SUBM Rule 3.2) poly spacing: 0.30 um
+        4  (SCMOS_SUBM Rule 9.2.b) metal2 spacing: 0.30 um
+       46  Total errors found

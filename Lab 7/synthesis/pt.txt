@@ -1,0 +1,16 @@
+
+1. For running primetime, source synopsys.bash through remote access and execute the primetime command.
+
+    To run primetime on CVLB computer systems, run the following command to directly connect to the hera server
+
+   ssh -X netid@hera.ece.tamu.edu
+
+  (Enter yes when it asks you to authenticate the network as reliable and later type in your netid password) 
+
+2. To obtain the proper min_paths.txt and max_paths.txt follow the procedure described below
+
+report_timing -max_paths 3 -slack_lesser_than 0.0 > max_paths.txt
+
+report_timing -max_paths 3 -delay min -slack_lesser_than 0.0 > min_paths.txt
+
+If no paths are reported for slack_lesser_than 0, increase your slack_lesser_than value to say, 3.0 or 5.0 and run the commands again so that the paths are reported in max_paths.txt and min_paths.txt. You can also change the slack_lesser_than option with slack_more_than option and value equal to 0 .
