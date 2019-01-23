@@ -1,0 +1,369 @@
+### CustomExplorer log file, revision E-2011.03-1 (build 1103) ###
+### created at 15:44:17 on Wed Jun 27 2018 (Linux AMD64) ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 0 33
+wv_resize_window CustomWaveView 1680 951
+wv_resize_window CustomWaveView 800 400
+wv_resize_window CustomWaveView 1680 951
+wv_select_toolbar_item {Import Waveform File}
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {}
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_select_dialog FileDialog
+wv_select_list_item FileDialog.FileList ..
+wv_select_list_item FileDialog.FileList inverter.raw
+wv_dclick_list_item FileDialog.FileList inverter.raw
+wv_select_list_item FileDialog.FileList TransientAnalysis.tran
+wv_dclick_list_item FileDialog.FileList TransientAnalysis.tran
+wv_expand_hierview_item {FILE0:D0:TransientAnalysis.tran}
+wv_select_hierview_item {FILE0:D0:TransientAnalysis.tran} {toplevel}
+wv_select_hierview_item {FILE0:D0:TransientAnalysis.tran}
+wv_drag_hierview_item {FILE0:D0:TransientAnalysis.tran}
+wv_select_hierview_item {FILE0:D0:TransientAnalysis.tran}
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_hierview_item {FILE0:D0:TransientAnalysis.tran} {toplevel}
+wv_select_sigview_item IV_in
+wv_select_sigview_item IV_out
+wv_dclick_sigview_item IV_out
+wv_select_sigview_item IV_in
+wv_dclick_sigview_item IV_in
+wv_select_menu_item {Tools} {Measurement ...}
+wv_move_dialog MeasurementTool 411 139
+wv_select_dialog MeasurementTool
+wv_move_dialog MeasurementTool 412 139
+wv_move_dialog MeasurementTool 418 142
+wv_move_dialog MeasurementTool 430 146
+wv_move_dialog MeasurementTool 451 152
+wv_move_dialog MeasurementTool 503 166
+wv_move_dialog MeasurementTool 547 176
+wv_move_dialog MeasurementTool 599 186
+wv_move_dialog MeasurementTool 652 197
+wv_move_dialog MeasurementTool 704 211
+wv_move_dialog MeasurementTool 751 227
+wv_move_dialog MeasurementTool 787 244
+wv_move_dialog MeasurementTool 796 253
+wv_move_dialog MeasurementTool 796 255
+wv_move_dialog MeasurementTool 791 260
+wv_move_dialog MeasurementTool 773 264
+wv_move_dialog MeasurementTool 689 266
+wv_move_dialog MeasurementTool 503 235
+wv_move_dialog MeasurementTool 398 202
+wv_move_dialog MeasurementTool 332 172
+wv_move_dialog MeasurementTool 321 159
+wv_move_dialog MeasurementTool 321 156
+wv_move_dialog MeasurementTool 329 152
+wv_move_dialog MeasurementTool 349 149
+wv_move_dialog MeasurementTool 381 147
+wv_move_dialog MeasurementTool 418 151
+wv_move_dialog MeasurementTool 448 153
+wv_move_dialog MeasurementTool 467 156
+wv_move_dialog MeasurementTool 468 157
+wv_move_dialog MeasurementTool 468 160
+wv_move_dialog MeasurementTool 470 168
+wv_move_dialog MeasurementTool 472 175
+wv_move_dialog MeasurementTool 474 180
+wv_move_dialog MeasurementTool 480 185
+wv_move_dialog MeasurementTool 490 190
+wv_move_dialog MeasurementTool 502 195
+wv_move_dialog MeasurementTool 511 197
+wv_move_dialog MeasurementTool 514 198
+wv_select_tab MeasurementTool.TabCtrl 1
+wv_select_dialog MeasurementTool
+wv_set_radio MeasurementTool.TimeDomain
+wv_resize_dialog MeasurementTool 838 622
+wv_select_dialog MeasurementTool
+wv_set_radio MeasurementTool.Delay
+wv_select_dialog MeasurementTool
+wv_set_text MeasurementTool.LevelPercentage {50}
+wv_set_text MeasurementTool.ReferenceLevelPercentage {50}
+wv_select_dialog MeasurementTool
+wv_set_text MeasurementTool.LevelPercentage {50.00}
+wv_set_text MeasurementTool.ReferenceLevelPercentage {50}
+wv_set_text MeasurementTool.ReferenceLevelPercentage {50.00}
+wv_select_dialog MeasurementTool
+wv_set_text MeasurementTool.ReferenceLevelPercentage {50.00}
+wv_press_button MeasurementTool.AllOk
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 279 215
+wv_move_wv_item WV1.MEAS1 422 222
+wv_select_panel WV1.PANEL1:1 1.55718e-09 0.852712
+wv_drag_item_to WV1 319 181
+wv_zoom WV1.PANEL1:1 1.55718e-09 0.852712 1.39497e-09 0.0768397
+wv_select_wv_item WV1.ICON.unzoom
+wv_release_wv_item WV1 60 15
+wv_select_wv_item WV1.MEAS1.ANCHOR2
+wv_drag_item_to WV1 325 179
+wv_move_wv_item WV1.MEAS1.ANCHOR2 307 379
+wv_select_wv_item WV1.MEAS1.ANCHOR2
+wv_drag_item_to WV1 307 397
+wv_move_wv_item WV1.MEAS1.ANCHOR2 322 196
+wv_waveview_context_menu WV1.MEAS1
+wv_select_context_menu_item {Copy Meter}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 523 254
+wv_move_wv_item WV1.MEAS2 796 233
+wv_select_wv_item WV1.MEAS1.ANCHOR2
+wv_drag_item_to WV1 320 176
+wv_move_wv_item WV1.MEAS1.ANCHOR2 321 192
+wv_select_wv_item WV1.MEAS1.ANCHOR2
+wv_drag_item_to WV1 321 177
+wv_move_wv_item WV1.MEAS1.ANCHOR2 316 430
+wv_select_wv_item WV1.MEAS2.ANCHOR2
+wv_drag_item_to WV1 717 180
+wv_move_wv_item WV1.MEAS2.ANCHOR2 722 415
+wv_sigview_context_menu IV_in
+wv_waveview_context_menu WV1.PANEL3:1.LEGEND
+wv_select_context_menu_item {Ungroup}
+wv_waveview_context_menu WV1.PANEL3:1.LEGEND
+wv_release_wv_item WV1 15 636
+wv_press_key Delete
+#please select panel(s) for the delete action
+wv_select_wv_item WV1.PANEL3:1.YAXIS1
+wv_select_wv_item WV1.LEGEND.WIDTH
+wv_move_wv_item WV1.PANEL1:1.LEGEND.WIDTH 83
+wv_select_wv_item WV1.PANEL3:1.LEGEND
+wv_select_panel WV1.PANEL3:1.LEGEND
+wv_press_key Delete
+wv_move_dialog Confirmation 748 454
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.PANEL2:1.LEGEND
+wv_select_panel WV1.PANEL2:1.LEGEND
+wv_press_key Delete
+wv_move_dialog Confirmation 748 454
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 463 250
+wv_press_key Delete
+wv_move_dialog Confirmation 748 454
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_hierview_item {FILE0:D0:TransientAnalysis.tran}
+wv_dclick_hierview_item {FILE0:D0:TransientAnalysis.tran}
+wv_select_hierview_item {FILE0:D0:TransientAnalysis.tran}
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_context_menu_item {Ungroup}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 495 262
+wv_move_wv_item WV1.MEAS1 473 275
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 544 301
+wv_waveview_context_menu WV1.PANEL1:1 3.37124e-09 0.587166
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 553 322
+wv_waveview_context_menu WV1.MEAS1
+wv_select_context_menu_item {Delete All Meters}
+wv_select_menu_item {Tools} {Measurement ...}
+wv_move_dialog MeasurementTool 385 129
+wv_select_dialog MeasurementTool
+wv_press_button MeasurementTool.AllOk
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 307 221
+wv_move_wv_item WV1.MEAS1 355 283
+wv_waveview_context_menu WV1.MEAS1
+wv_select_context_menu_item {Copy Meter}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 463 321
+wv_move_wv_item WV1.MEAS2 734 325
+wv_select_toolbar_item {Import Waveform File}
+wv_move_dialog FileDialog 10 38
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {TransientAnalysis.tran}
+# selected FileDialog.Path albertzong/
+wv_select_opt_item FileDialog.Path albertzong/
+wv_close_dialog FileDialog
+wv_close_window CustomWaveView
+wv_move_dialog Confirmation 743 454
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Cancel
+wv_select_toolbar_item {Import Waveform File}
+wv_move_dialog FileDialog 638 202
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {TransientAnalysis.tran}
+wv_horz_scroll FileDialog.FileList 334
+wv_select_list_item FileDialog.FileList ECEN454
+wv_dclick_list_item FileDialog.FileList ECEN454
+wv_horz_scroll FileDialog.FileList 0
+wv_select_list_item FileDialog.FileList Lab1
+wv_dclick_list_item FileDialog.FileList Lab1
+wv_select_list_item FileDialog.FileList spectre
+wv_dclick_list_item FileDialog.FileList spectre
+wv_select_list_item FileDialog.FileList cellcharacs
+wv_dclick_list_item FileDialog.FileList cellcharacs
+wv_select_list_item FileDialog.FileList inverter_simcap.raw
+wv_dclick_list_item FileDialog.FileList inverter_simcap.raw
+wv_select_list_item FileDialog.FileList logFile
+wv_press_button FileDialog.Up
+wv_press_button FileDialog.Up
+wv_select_list_item FileDialog.FileList inverter.raw
+wv_dclick_list_item FileDialog.FileList inverter.raw
+wv_press_button FileDialog.Up
+wv_select_list_item FileDialog.FileList cellcharacs
+wv_dclick_list_item FileDialog.FileList cellcharacs
+wv_horz_scroll FileDialog.FileList 0
+wv_press_button FileDialog.Up
+wv_select_list_item FileDialog.FileList cellcharacs
+wv_dclick_list_item FileDialog.FileList cellcharacs
+wv_select_list_item FileDialog.FileList inverter.raw
+wv_dclick_list_item FileDialog.FileList inverter.raw
+wv_select_list_item FileDialog.FileList TransientAnalysis.tran.tran
+wv_dclick_list_item FileDialog.FileList TransientAnalysis.tran.tran
+wv_select_hierview_item {FILE0:D0:TransientAnalysis.tran}
+wv_hierview_context_menu {FILE0:D0:TransientAnalysis.tran}
+wv_select_hierview_item {FILE1:D1:TransientAnalysis.tran.tran}
+wv_drag_hierview_item {FILE1:D1:TransientAnalysis.tran.tran}
+wv_select_hierview_item {FILE1:D1:TransientAnalysis.tran.tran}
+wv_drag_enter WV1
+wv_drag_to WV1 0 397
+wv_drag_to WV1 29 504
+wv_drag_to WV1 26 502
+wv_drag_leave WV1
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_context_menu_item {Group}
+wv_drag_hierview_item {FILE1:D1:TransientAnalysis.tran.tran}
+wv_select_hierview_item {FILE1:D1:TransientAnalysis.tran.tran}
+wv_drag_enter WV1
+wv_drag_to WV1 20 374
+wv_drag_to WV1 87 659
+wv_drop_on WV1
+wv_select_menu_item {Tools} {Measurement ...}
+wv_move_dialog MeasurementTool 385 129
+wv_select_dialog MeasurementTool
+wv_press_button MeasurementTool.AllOk
+wv_select_wv_item WV1.MEAS3
+wv_drag_item_to WV1 277 238
+wv_move_wv_item WV1.MEAS3 398 540
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_hierview_context_menu {FILE0:D0:TransientAnalysis.tran}
+wv_select_context_menu_item {Close This File}
+wv_move_dialog Confirmation 748 454
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 395 308
+wv_select_wv_item WV1.MEAS2
+wv_move_wv_item WV1.MEAS2 795 349
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_context_menu_item {Ungroup}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 429 325
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 832 368
+wv_move_wv_item WV1.MEAS2 832 368
+## TYPE S abort
+## memory usage 5.23MB
+#session saved in: 'sx_crash.sx'
+### auto-generated spxrc ###
+### General Settings ###
+gui_font small
+startup_mode full
+show_console false
+replay_delay 1
+backingstore internal
+gui_color bright
+sx_editor vi
+private_colormap false
+wv_iconizable false
+user_colors false
+thick_line false
+okbtn_autocenter false
+delete_confirm true
+reload_confirm true
+precision_digits 3
+browser_width 250
+### SPICE lint ###
+spice_netlist_erc off
+spice_inst_casesensitive false
+spice_parm_casesensitive false
+spice_sort_subckt_cells false
+spice_cell_index_depth true
+spice_smart_sort false
+use_hspiceini false
+lint_suppress_list 
+lint_min_resistance    1.000E-05
+lint_max_capacitance    1.000E-03
+lint_min_mos_width    1.000E-08
+lint_max_mos_width    1.000E-02
+lint_min_mos_length    1.000E-08
+lint_max_mos_length    1.000E-02
+### Custom WaveView ###
+waveview_background black
+cycle_color_by panel+waveview
+clamp_ac_phase true
+left_button_action zoom
+init_xy_mode hvsel
+group_display_order file
+def_ac_stack complex
+def_acx_type linear
+def_acy_type linear
+def_trx_type linear
+def_try_type linear
+def_fft_xscale log
+def_fft_yscale db
+signal_dnd_mode move
+logic_style_default vcd
+signal_font normal
+signal_name name+file
+signal_path path+name
+load_data_at_open false
+grid_default on
+grid_brightness normal
+auto_y_axes off
+alias_bracket true
+flatten_single_point_sweep true
+signame_popup false
+show_ytype false
+smart_hsort false
+sweep_expand user
+remove_dupsig false
+case_sens_tr0 false
+flatten_segs true
+extend_waveform false
+convert_s_to_yz true
+sync_alias true
+real_time_scroll true
+snap_marker false
+btn_add_hcursor false
+bar_grip_scroll false
+auto_x_extend false
+hide_panel_div false
+logic_cursor_snap true
+logic_glitch_highlight true
+stack_auto_fit on
+wdf_filter allfiles
+horz_panel_height 80
+default_panels_perrow 4
+default_hist_binsize 10
+max_visible_panels 0
+lines_per_panel 0
+min_panel_height 20
+analog_panel_height 120
+max_log_span 12
+logic_panel_height 24
+panel_spacing 0
+smith_char_impedance    5.000E+01
+d2a_xtol true
+d2a_fullext true
+d2a_high_value    3.300E+00
+d2a_low_value    0.000E+00
+d2a_rise_slew    1.000E-11
+d2a_fall_slew    1.000E-11
+a2d_single_threshold true
+a2d_center_threshold    2.500E+00
+a2d_high_threshold    4.000E+00
+a2d_low_threshold    1.000E+00
+dm_low_margin 10.0
+dm_high_margin 90.0
+dm_low_logic 0.0
+dm_high_logic 3.3
+SX_DM_DMScale false
+SNR_inc_floor_noise false

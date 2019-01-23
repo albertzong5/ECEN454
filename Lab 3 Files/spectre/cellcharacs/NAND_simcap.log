@@ -1,0 +1,113 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 15.1.0.602.isr11 32bit -- 3 Sep 2016
+Copyright (C) 1989-2016 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: larsenraca   Host: lin06-324cvlb.ece.tamu.edu   HostID: C2800A31   PID: 30645
+Memory  available: 6.6785 GB  physical: 16.6106 GB
+Linux   : CentOS Linux release 7.4.1708 (Core) 
+CPU Type: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [1897.4] (  4 ),  1 [1881.7] (  5 ),  2 [1855.7] (  6 )
+                 3 [1734.4] (  7 )
+        
+System load averages (1min, 5min, 15min) : 1.2 %, 1.2 %, 0.9 %
+Hyperthreading is enabled
+
+
+Simulating `NAND_simcap.spi' on lin06-324cvlb.ece.tamu.edu at 1:50:19 PM, Sat Sep 23, 2017 (process id: 30645).
+Current working directory: /home/ugrads/l/larsenraca/ecen454_714/cadence/cellcharacs
+Environment variable:
+    SPECTRE_DEFAULTS=-E
+Command line:
+    /softwares/Linux/cadence/MMSIM151/tools/bin/spectre NAND_simcap.spi
+
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libphilips_o_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libphilips_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libsparam_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libstmodels_sh.so ...
+Reading file:  /home/ugrads/l/larsenraca/ecen454_714/cadence/cellcharacs/NAND_simcap.spi
+Reading file:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /usr/include/stdc-predef.h
+Reading file:  /home/ugrads/l/larsenraca/ecen454_714/cadence/cellcharacs/model18.spi
+Reading file:  /home/ugrads/l/larsenraca/ecen454_714/cadence/cellcharacs/cell18.spi
+Time for NDB Parsing: CPU = 100.322 ms, elapsed = 269.75 ms.
+Time accumulated: CPU = 133.233 ms, elapsed = 269.757 ms.
+Peak resident memory used = 32.9 Mbytes.
+
+
+The CPU load for active processors is :
+        Spectre  0 (16.7 %)      1 (4.2 %)       3 (16.7 %)      4 (4.2 %)
+                 5 (8.3 %)       6 (16.7 %)      7 (8.3 %)      
+        Other   
+Reading link:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading link:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/constants.vams
+Time for Elaboration: CPU = 19.578 ms, elapsed = 23.5021 ms.
+Time accumulated: CPU = 153.06 ms, elapsed = 293.524 ms.
+Peak resident memory used = 36.6 Mbytes.
+
+Time for EDB Visiting: CPU = 402 us, elapsed = 403.166 us.
+Time accumulated: CPU = 153.687 ms, elapsed = 294.173 ms.
+Peak resident memory used = 37 Mbytes.
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2426): X1.M2: `Pdiblc2' = -8.75063e-06 is negative.
+
+
+Global user options:
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 7
+            bsim3v3 4     
+           resistor 1     
+            vsource 4     
+
+Analysis and control statement inventory:
+                 ac 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2426): X1.M2: `Pdiblc2' = -8.75063e-06 is negative.
+
+Time for parsing: CPU = 2.247 ms, elapsed = 18.935 ms.
+Time accumulated: CPU = 156.137 ms, elapsed = 313.34 ms.
+Peak resident memory used = 37.9 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+*******************************************
+AC Analysis `Freq': freq = (10 Hz -> 1 GHz)
+*******************************************
+DC simulation time: CPU = 389 us, elapsed = 389.099 us.
+
+Opening the PSF file NAND_simcap.raw/Freq.ac ...
+......9......8......7......6......5......4......3......2......1......0
+Accumulated DC solution time = 0 s.
+Intrinsic ac analysis time =              0 s.
+Total time required for ac analysis `Freq': CPU = 3.597 ms, elapsed = 9.44209 ms.
+Time accumulated: CPU = 160.307 ms, elapsed = 324.04 ms.
+Peak resident memory used = 39.1 Mbytes.
+
+
+Aggregate audit (1:50:19 PM, Sat Sep 23, 2017):
+Time used: CPU = 163 ms, elapsed = 327 ms, util. = 49.8%.
+Time spent in licensing: elapsed = 46.6 ms, percentage of total = 14.3%.
+Peak memory used = 39.6 Mbytes.
+Simulation started at: 1:50:19 PM, Sat Sep 23, 2017, ended at: 1:50:19 PM, Sat Sep 23, 2017, with elapsed time (wall clock): 327 ms.
+spectre completes with 0 errors, 2 warnings, and 0 notices.

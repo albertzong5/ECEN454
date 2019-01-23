@@ -1,0 +1,188 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 15.1.0.602.isr11 32bit -- 3 Sep 2016
+Copyright (C) 1989-2016 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: larsenraca   Host: lin12-324cvlb.ece.tamu.edu   HostID: C2801031   PID: 9292
+Memory  available: 14.1113 GB  physical: 16.6106 GB
+Linux   : CentOS Linux release 7.4.1708 (Core) 
+CPU Type: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [1600.1] (  4 ),  1 [2065.2] (  5 ),  2 [1676.5] (  6 )
+                 3 [2112.4] (  7 )
+        
+System load averages (1min, 5min, 15min) : 1.6 %, 0.9 %, 1.1 %
+Hyperthreading is enabled
+
+
+Simulating `inverter_delaytable.spi' on lin12-324cvlb.ece.tamu.edu at 4:19:08 PM, Fri Sep 22, 2017 (process id: 9292).
+Current working directory: /home/ugrads/l/larsenraca/ecen454_714/cadence/cellcharacs
+Environment variable:
+    SPECTRE_DEFAULTS=-E
+Command line:
+    /softwares/Linux/cadence/MMSIM151/tools/bin/spectre  \
+        inverter_delaytable.spi
+
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libphilips_o_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libphilips_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libsparam_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libstmodels_sh.so ...
+Reading file:  /home/ugrads/l/larsenraca/ecen454_714/cadence/cellcharacs/inverter_delaytable.spi
+Reading file:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /usr/include/stdc-predef.h
+Reading file:  /home/ugrads/l/larsenraca/ecen454_714/cadence/cellcharacs/model18.spi
+Reading file:  /home/ugrads/l/larsenraca/ecen454_714/cadence/cellcharacs/cell18.spi
+Time for NDB Parsing: CPU = 90.566 ms, elapsed = 429.889 ms.
+Time accumulated: CPU = 117.201 ms, elapsed = 429.906 ms.
+Peak resident memory used = 33.2 Mbytes.
+
+
+The CPU load for active processors is :
+        Spectre  0 (7.1 %)       1 (2.3 %)       2 (2.4 %)       3 (7.1 %)
+                 4 (2.3 %)       5 (4.8 %)       6 (11.6 %)      7 (2.4 %)
+        Other   
+Reading link:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading link:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/constants.vams
+Time for Elaboration: CPU = 17.213 ms, elapsed = 24.7169 ms.
+Time accumulated: CPU = 134.629 ms, elapsed = 454.854 ms.
+Peak resident memory used = 36.8 Mbytes.
+
+Time for EDB Visiting: CPU = 328 us, elapsed = 326.872 us.
+Time accumulated: CPU = 135.152 ms, elapsed = 455.394 ms.
+Peak resident memory used = 37.3 Mbytes.
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2426): X1.M1: `Pdiblc2' = -8.75063e-06 is negative.
+
+
+Global user options:
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 4
+            bsim3v3 2     
+          capacitor 1     
+            vsource 3     
+
+Analysis and control statement inventory:
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2426): X1.M1: `Pdiblc2' = -8.75063e-06 is negative.
+
+Time for parsing: CPU = 2.116 ms, elapsed = 8.67391 ms.
+Time accumulated: CPU = 137.435 ms, elapsed = 464.257 ms.
+Peak resident memory used = 38.2 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************************
+Transient Analysis `TransientAnalysis': time = (0 s -> 10 ns)
+*************************************************************
+DC simulation time: CPU = 311 us, elapsed = 311.136 us.
+
+Opening the PSF file inverter_delaytable.raw/TransientAnalysis.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 10 ns
+    step = 1 ps
+    maxstep = 200 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   2       (voltage)
+
+
+Notice from spectre at time = 127 ps during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node vpwl:p.
+
+.
+
+Notice from spectre at time = 255 ps during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node vpwl:p.
+
+..
+
+Notice from spectre at time = 455 ps during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node vpwl:p.
+
+...
+
+Notice from spectre at time = 655 ps during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node vpwl:p.
+
+.....
+
+Notice from spectre at time = 855 ps during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node vpwl:p.
+        Further occurrences of this notice will be suppressed.
+
+......9......8......7......6......5......4......3......2......1......0
+Number of accepted tran steps =             86
+
+Notice from spectre during transient analysis `TransientAnalysis'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (12.8 %)      1 (4.2 %)       2 (2.2 %)       3 (6.5 %)
+                 4 (2.1 %)       5 (4.3 %)       6 (10.6 %)      7 (2.2 %)
+        Other   
+Initial condition solution time: CPU = 358 us, elapsed = 367.88 us.
+Intrinsic tran analysis time:    CPU = 5.593 ms, elapsed = 6.72793 ms.
+Total time required for tran analysis `TransientAnalysis': CPU = 7.299 ms, elapsed = 10.695 ms.
+Time accumulated: CPU = 145.434 ms, elapsed = 477.114 ms.
+Peak resident memory used = 39.9 Mbytes.
+
+
+Notice from spectre.
+    17 notices suppressed.
+
+
+Aggregate audit (4:19:09 PM, Fri Sep 22, 2017):
+Time used: CPU = 147 ms, elapsed = 480 ms, util. = 30.8%.
+Time spent in licensing: elapsed = 36.1 ms, percentage of total = 7.53%.
+Peak memory used = 40.3 Mbytes.
+Simulation started at: 4:19:08 PM, Fri Sep 22, 2017, ended at: 4:19:09 PM, Fri Sep 22, 2017, with elapsed time (wall clock): 480 ms.
+spectre completes with 0 errors, 2 warnings, and 7 notices.
